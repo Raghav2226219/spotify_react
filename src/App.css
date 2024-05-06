@@ -1,0 +1,617 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/* ###########  BODY  #################### */
+body{
+  background-color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.container{
+  display: flex;
+  height: 85vh;
+}
+
+                                                         /* ###########  LEFT SIDE  ############### */
+
+/* ###################################################  TOP RIGHT SECTION (INCLUDING WORD SPOTIFY HOME AND SEARCH)  ################################################################# */
+
+.left{
+  width: 25vw;
+}
+/* ###################################################  2nd RIGHT SECTION (INCLUDING WORD LIBRARY AND THE ENTIRE CONTAINER)  ################################################################# */
+.library{
+  /* border: 2px solid red; */
+  background-color: rgb(41, 41, 41);
+  margin: 5px;
+  border-radius: 10px;
+  padding: 5px;
+  height: 457px;
+}
+.lib-top{
+  display: block;
+  height: 25px;
+  padding: 15px;
+  background-color: rgb(75,75,75);
+  border-radius: 10px;
+}
+.lib-top-left{
+  /* border: 2px solid blue; */
+  
+  display: flex;
+  float: left;
+  width: 145px;
+  height: 25px;
+  gap: 5px;
+  margin-left:10px ;    
+}
+.lib-top-right{
+  float: right;
+  width: 25px;
+  height: 25px;
+  /* border: 2px solid blue; */
+
+}
+.lib-mid{
+  background-color: rgb(75,75,75);
+  /* border: 2px solid red; */
+  border-radius: 10px;
+  padding-top: 10px;
+  margin-top: 5px;
+}
+
+
+.lib-mid{
+  padding: 10px 10px 10px 25px;
+  
+}
+.btn-list{
+  border: none;
+  border-radius: 20px;
+  width: 70px;
+  height: 30px;
+  background-color: rgb(120,120,120);
+  font-size: 15px;
+  /* font-weight: 700; */
+}
+
+/* .lib-mid-2{
+  margin-top: 5px;
+  display: block;
+  height: 25px;
+  padding: 10px; 
+  background-color: rgb(75,75,75);
+  border-radius: 10px;
+} */
+/* .lib-mid-2-left{
+  border: 2px solid red;
+  display: flex;
+  float: left;
+  width: 145px;
+  height: 20px;
+  gap: 5px;
+  margin-top: 3px;
+  margin-left:10px ;    
+  border: 2px solid blue;
+} */
+/* .lib-mid-2-right{
+  display: flex;
+  float: right;
+  width: 100px;
+  gap: 5px;
+  height: 17px;
+  margin-top: 3px;
+  border: 2px solid blue;
+
+} */
+
+/* .recent-logo{
+  margin-left: 3px;
+  margin-top: 3px;
+  margin-bottom: -3px;
+} */
+
+.container2{
+  background-color: rgb(75,75,75);
+  border-radius: 10px;
+  height: 380px;
+  padding-top: 10px;
+  margin-top: 5px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;   
+}
+
+.lib-bottom{
+  /* border: 2px solid blue; */
+  background-color: rgb(130,130,130);
+  display: flex;
+  padding: 5px;
+  margin-left: 14px;
+  margin-top: 5px;
+  gap: 5px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+
+}
+
+.playlists-title {
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+/* ###################################################  MAIN RIGHT SECTION  ################################################################# */
+
+.right{
+  /* border: 2px solid red; */
+  border-radius: 10px;
+  background-color: rgb(41, 41, 41);
+  width: 75vw;
+  margin-top: 5px;
+}
+
+
+.top{
+  /* border: 2px solid blue; */
+  border-radius: 10px;
+  background-color: rgb(75,75,75);
+  display: block;
+  height: 50px;
+  width: 75vw;
+  margin-top: 5px;
+}
+
+.top-left{
+  /* border: 2px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: 10px;
+  gap: 8px;
+}
+
+.arr-left{
+  /* border: 2px solid greenyellow; */
+  border-radius: 50%;
+  /* background-color: rgb(140,140,140); */
+  float: left;
+  margin-top: 8px;
+  width: 30px;
+  height: 30px;
+}
+
+.arr-right{
+  /* border: 2px solid greenyellow; */
+  border-radius: 50%;
+  /* background-color: rgb(140,140,140); */
+  float: left;
+  margin-top: 8px;
+  width: 30px;
+  height: 30px;
+}
+.top-right{
+  /* border: 2px solid red; */
+  float: right;
+  display: flex;
+  gap: 10px;
+}
+/* .download{
+  border: 2px solid greenyellow;
+  border-radius: 20px;
+  background-color: rgb(140,140,140);
+  float: right;
+  margin-top: -25px;
+  display: flex;
+  float: right;
+  width: 100px;
+  height: 25px;
+} */
+
+.h6-top{
+  margin-top: 5px;
+  margin-left: 3px;
+}
+
+/* .whats-new{
+  border: 2px solid greenyellow;
+  border-radius: 50%;
+  background-color: rgb(72, 70, 70);
+  float: right;
+  width: 25px;
+  height: 25px;
+  margin-top: -25px;
+} */
+
+.account{
+  /* border: 2px solid greenyellow; */
+  border-radius: 50%;
+  background-color: rgb(140,140,140);
+  width: 30px;
+  height: 30px;
+  margin-top: -25px;
+  margin-right: 10px;
+}
+
+/* .button-2{
+  border: 2px solid blue;
+  border-radius: 8px;
+  background-color: rgb(75,75,75);
+  margin-top: 5px;
+  height: 35px;
+}
+
+.btn-list-2{
+  border: 2px solid greenyellow;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(120,120,120);
+  margin-top: 2px;
+  margin-left: 10px;
+  width: 70px;
+  height: 30px;
+  background-color: rgb(194, 191, 188);
+  font-size: 15px;
+  font-weight: 300;
+} */
+
+.main-body{
+  /* border: 2px solid blue; */
+  border-radius: 8px;
+  background-color: rgb(75,75,75);
+  margin-top: 3px;
+  height: 540px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.h1-1{
+  margin-top: 10px;
+  margin-left: 40px;
+  /* font-size: 40px;*/
+} 
+
+.from-your-playlist{
+  /* border: 2px solid blueviolet; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 5px
+  ;
+  border-radius: 10px;
+  height: 145px;
+  width: 70vw;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.top-row{
+  /* border: 2px solid red; */
+  margin-top: 5px;
+  margin-left: 7px;
+  display: flex;
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+  justify-content: space-evenly;
+}
+
+.bottom-row{
+  margin-top: 5px;
+  margin-left: 7px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-evenly;
+}
+
+/* ###################################################  CARDS  ################################################################# */
+
+.card-text{
+  /* border: 2px solid goldenrod; */
+  border-radius: 10px;
+  margin-top: 8px;
+  padding: 5px;
+  text-align: center;
+  word-wrap: break-word;
+  width: 180px;
+  margin-left: 4px;
+}
+
+.made-for-you{
+  /* border: 2px solid blueviolet; */
+  border-radius: 10px;
+  width: 70vw;
+  height: 330px;
+  display: flex;
+  margin-left: 30px;
+}
+
+
+.cardtype-1{
+  /* border: 2px solid greenyellow; */
+  border-radius: 10px;
+  background-color: rgb(140,140,140);
+  padding-top: 6px;
+  display: flex;
+  width: 350px;
+  height: 55px;
+}
+
+.cardtype-1-body{
+  /* padding-top: 10px; */
+  margin-left: 20px;
+ margin-top: 10px;
+ font-size: 30px; 
+}
+
+.cardtype-2{
+ /* border: 2px solid greenyellow; */
+ border-radius: 10px;
+ background-color: rgb(140,140,140);
+ display: flex;
+ flex-direction: column;
+ width: 200px;
+ height: 300px;
+ font-size: 15px;
+ margin-left: 10px;
+ margin-top: 10px;
+}
+
+
+/* ###################################################  HOVER EFFECTS  ################################################################# */
+
+.cardtype-2:hover{
+  background-color: rgb(170,170,170);
+  box-shadow: 6px 6px rgb(0,0,0);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.cardtype-1:hover{
+  background-color: rgb(170,170,170);
+  box-shadow: 5px 5px rgb(0,0,0);
+  transform: scale(1);
+  cursor: pointer;
+}
+
+.lib-bottom:hover{
+  background-color: rgb(170,170,170);
+  box-shadow: 5px 5px rgb(0,0,0);
+  transform: scale(1);
+  cursor: pointer;
+}
+
+.btn-list:hover{
+  cursor: pointer;
+  box-sizing: 2px 2px black;
+  transform: scale(1.01);
+  background-color: rgb(180,180,180);
+}
+
+.btn-list-2:hover{
+  cursor: pointer;
+  box-sizing: 2px 2px black;
+  transform: scale(1.01);
+  background-color: rgb(180,180,180);
+}
+
+.lib-top-right:hover{
+  cursor: pointer;
+}
+
+.lib-mid-2-left:hover{
+  cursor: pointer;
+}
+
+.lib-mid-2-right:hover{
+  cursor: pointer;
+}
+
+.h-and-l ul li:hover{
+  cursor: pointer;
+}
+
+.download:hover{
+  background-color: rgb(140,140,140);
+  cursor: pointer;
+  transform: scale(1.03);
+  box-shadow: 2px 2px black;
+}
+
+.whats-new:hover{
+  cursor: pointer;
+  background-color: rgb(140,140,140);
+  transform: scale(1.03);
+  box-shadow: 2px 2px black;
+}
+
+.account:hover{
+  cursor: pointer;
+  transform: scale(1.03);
+  box-shadow: 2px 2px black;
+}
+
+.arr-left:hover{
+  cursor: pointer;
+  background-color: rgb(140,140,140);
+  transform: scale(1.03);
+  box-shadow: 2px 2px 0px 0px  black;
+}
+
+.arr-right:hover{
+  cursor: pointer;
+  background-color: rgb(140,140,140);
+  transform: scale(1.03);
+  box-shadow: 2px 2px black;
+}
+
+/* .cardtype-2-img:hover{
+  transform: scale(1.03);
+  box-shadow: 4px 4px rgb(0,0,0);
+  border-radius: 10px;
+} */
+
+
+
+
+/* ###################################################  CARDS IMAGES   ################################################################# */
+
+
+.playlists-img{
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 3px 3px rgb(180,180,180);
+} 
+
+
+.acc1{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.from-playlists-card-image{
+  /* border: 2px solid goldenrod; */
+  box-shadow: 4px 4px rgb(180,180,180);
+  border-radius: 10px;
+  margin-left: 10px;
+  height: 47px;
+  width: 47px;
+}
+
+
+
+
+.cardtype-2-img{
+  /* border: 2px solid goldenrod; */
+  box-shadow: 4px 4px rgb(180,180,180);
+  border-radius: 10px;
+  height: 200px;
+  width: 180px;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+
+/* ###################################################################################################*/
+.bottom-section{
+  /* border: 2px solid white; */
+  background-color: rgb(120,120,120);
+  border-radius: 10px;
+  display: flex;
+  height: 90px;
+  width: 1532px;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.bottom-section-left{
+  display: flex;
+  border-radius: 10px;
+  margin-top: 6px;
+  margin-left: 20px;
+  width: 470px;
+  height: 76px;
+  background-color: rgb(130,130,130);
+  /* border: 2px solid red; */
+}
+
+.bottom-section-middle{
+  border-radius: 10px;
+  margin-top: 6px;
+  width: 470px;
+  height: 76px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(130,130,130);
+  /* border: 2px solid blue; */
+}
+
+.bottom-section-right{
+  border-radius: 10px;
+  margin-top: 6px;
+  margin-right: 20px;
+  width: 470px;
+  display: flex;
+  height: 76px;
+  justify-content: center;
+  background-color: rgb(130,130,130);
+  /* border: 2px solid greenyellow; */
+}
+
+.img-corner{
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 6px;
+  height: 60px;
+  width: 60px;
+  /* border: 2px solid yellow; */
+}
+
+.bottom-section-img{
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+}
+
+.text-section{
+  /* border: 2px solid orangered; */
+  width: 380px;
+  height: 60px;
+  border-radius: 10px;
+  margin-top: 6px;
+  margin-left: 10px;
+}
+
+.song-name{
+  /* color: rgb(254, 253, 253); */
+  height: 20px;
+  width: 340px;
+  border-radius: 10px;
+  margin-top: 6px;
+  margin-left: 5px;
+  text-align: left;
+  padding-left: 10px;
+  /* line-height: 60%; */
+  /* border: 2px solid blueviolet; */
+}
+
+.singer{
+  /* border: 2px solid aqua; */
+  border-radius: 10px;
+  height: 20px;
+  width: 340px;
+  /* color: azure; */
+  font-size: 15px;
+  /* padding-top: 3px; */
+  padding-left: 10px;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+
+.func-button{
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+  border: none;
+  border-radius: 20px;
+  margin-top: 23px;
+  margin-left: 10px;
+  /* background-color: rgb(120,120,120); */
+}
+
+.func-button:hover{
+  cursor: pointer;
+  box-sizing: 2px 2px black;
+  transform: scale(1.05);
+  background-color: rgb(180,180,180);
+}
+.display-flex{
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.border{
+  border: 2px solid red;
+}
